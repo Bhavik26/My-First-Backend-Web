@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(143, 206, 206);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width:100vw;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+    background-image: url('https://www.oyorooms.com/blog/wp-content/uploads/2019/07/backgroundimg.jpg');
+    /* background-color: #008080; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+.box, .box1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: left;
+    background-color: aliceblue;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+.box img,.box1 img {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 7px solid #000000;
+}
+p {
+    text-align: left;
+    padding: 10px;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: #000000;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    text-align: center; 
+}
